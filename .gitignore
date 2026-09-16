@@ -1,0 +1,14 @@
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/parkai.db
+# All demo/query images are generated at startup (see app/main.py's auto-seed) —
+# nothing under static/ needs to be committed.
+backend/static/images/*.jpg
+backend/static/demo/*.jpg
+backend/static/demo/*.json
+
+frontend/node_modules/
+frontend/dist/
+
+.DS_Store
